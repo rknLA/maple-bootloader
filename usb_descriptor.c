@@ -192,7 +192,8 @@ u8 u8_usbStringAlt1[0x3A] =
     '0',0
   };
 
-u8 u8_usbStringInterface = NULL;
+//u8 u8_usbStringInterface = NULL;    // IAR FIX
+u8 u8_usbStringInterface = 0;
 
 ONE_DESCRIPTOR usbStringDescriptor[STR_DESC_LEN] =
   {

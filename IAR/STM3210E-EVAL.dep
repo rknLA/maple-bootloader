@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1610003688</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\hardware.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\c_only_startup.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\c_only_startup_user.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\cortexm3_macro.o</file>
+      <file>$PROJ_DIR$\..\common.h</file>
+      <file>$PROJ_DIR$\..\usb_descriptor.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_callbacks.o</file>
+      <file>$PROJ_DIR$\..\config.h</file>
+      <file>$PROJ_DIR$\..\usb_callbacks.c</file>
+      <file>$PROJ_DIR$\..\dfu.h</file>
+      <file>$PROJ_DIR$\..\dfu.c</file>
+      <file>$PROJ_DIR$\..\hardware.c</file>
+      <file>$PROJ_DIR$\..\hardware.h</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\usb.c</file>
+      <file>$PROJ_DIR$\..\usb.h</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_int.c</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_int.h</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_lib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_core.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_init.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_init.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_int.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_mem.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_regs.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_core.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_int.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_mem.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_regs.pbi</file>
+      <file>$PROJ_DIR$\..\usb_descriptor.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\dfu.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\dfu.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_descriptor.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\hardware.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_callbacks.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\usb_descriptor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\STM3210E-EVAL.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM3210E-EVAL.pbd</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_conf.h</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_core.c</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_core.h</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_def.h</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_init.c</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_init.h</file>
+      <file>$PROJ_DIR$\..\stm32_lib\c_only_startup.s</file>
+      <file>$PROJ_DIR$\..\stm32_lib\c_only_startup_user.s</file>
+      <file>$PROJ_DIR$\..\stm32_lib\cortexm3_macro.h</file>
+      <file>$PROJ_DIR$\..\stm32_lib\cortexm3_macro.s</file>
+      <file>$PROJ_DIR$\..\stm32_lib\stm32f10x_type.h</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_mem.c</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_mem.h</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_regs.c</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_regs.h</file>
+      <file>$PROJ_DIR$\..\usb_lib\usb_type.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\usb_descriptor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 4 7 12 52 50 15 18 57 56 45 44 47 54 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29 4 7 12 52 50 15 18 57 56 45 44 47 54 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\usb_callbacks.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\dfu.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 4 7 12 52 50 15 18 57 56 45 44 47 54 17 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 4 7 12 52 50 15 18 57 56 45 44 47 54 17 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\hardware.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 52 50 4 7 15 18 57 56 45 44 47 54 17 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12 52 50 4 7 15 18 57 56 45 44 47 54 17 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4 7 12 15 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 4 7 12 52 50 15 18 57 56 45 44 47 54 17 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\usb.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 4 7 12 29 9</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 4 7 12 52 50 18 57 56 45 44 47 54 17 29 9</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\usb_lib\usb_int.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\STM3210E-EVAL.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 32 35 36 38 37 25 39 20 26 27 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\usb_lib\usb_core.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\usb_lib\usb_init.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\stm32_lib\c_only_startup.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\stm32_lib\c_only_startup_user.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\stm32_lib\cortexm3_macro.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\usb_lib\usb_mem.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\usb_lib\usb_regs.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18 57 56 45 44 47 54 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\usb_descriptor.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

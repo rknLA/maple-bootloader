@@ -57,11 +57,13 @@ void strobePin(u32 bank, u8 pin, u8 count, u32 rate) {
   u32 c;
   while (count-- >0) {
     for (c=rate;c>0;c--) {
-      asm volatile ("nop");
+      //asm volatile ("nop");   // IAR FIX
+      asm("nop");
     }
     setPin(bank,pin);
     for (c=rate;c>0;c--) {
-      asm volatile ("nop");
+      //asm volatile ("nop");   // IAR FIX
+      asm("nop");
     }
     resetPin(bank,pin);
   } 
@@ -228,7 +230,8 @@ void systemHardReset(void) {
 
   /*  should never get here */
   while (1) {
-    asm volatile("nop");
+    //asm volatile ("nop");   // IAR FIX
+    asm("nop");
   }
 }
 

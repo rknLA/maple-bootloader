@@ -297,7 +297,8 @@ u8* dfuCopyStatus(u16 length) {
     pInformation->Ctrl_Info.Usb_wLength = 6;
     return NULL;
   } else {
-    return(&dfuAppStatus);
+    //return(&dfuAppStatus);  // IAR FIX
+    return((u8*)&dfuAppStatus);
   }
 }
 
@@ -334,7 +335,8 @@ void dfuCopyBufferToExec() {
     flashErasePage((u32)(userSpace));
 
     for (i=0;i<thisBlockLen;i=i+4) {
-      flashWriteWord(userSpace++,*(u32*)(recvBuffer+i));
+      //flashWriteWord(userSpace++,*(u32*)(recvBuffer+i));  // IAR FIX
+      flashWriteWord((u32)userSpace++,*(u32*)(recvBuffer+i));
     }
 
   }
